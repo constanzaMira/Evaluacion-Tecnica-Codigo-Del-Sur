@@ -1,7 +1,7 @@
 # Evaluacion-Tecnica-Codigo-Del-Sur
 
 ## Introducción
-**Breve descripción del proyecto y su finalidad.** Este proyecto es una API desarrollada como parte de una evaluación técnica propuesta por CodigoDelSur. La API está diseñada para gestionar usuarios y películas, permitiendo a los usuarios registrarse, autenticarse, buscar películas, añadir películas a sus favoritos y consultar su lista de películas favoritas.
+Este proyecto es una API desarrollada como parte de una evaluación técnica. La API está diseñada para gestionar usuarios y películas, permitiendo a los usuarios registrarse, autenticarse, buscar películas, añadir películas a sus favoritos y consultar su lista de películas favoritas.
 
 ## Tecnologías Utilizadas
 Algunas de las trecnologias utilizadas fueron las siguientes:
