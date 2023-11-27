@@ -70,4 +70,7 @@ Para manejar la autenticación y autorización, se utiliza el estándar JSON Web
 
 Esta estrategia de autenticación asegura que solo los usuarios registrados y autenticados puedan acceder a ciertas funcionalidades de la API, manteniendo así la seguridad y la integridad de los datos del usuario.
 
+## Tests
+**Ejecutar test:** `npm test`
+
 
