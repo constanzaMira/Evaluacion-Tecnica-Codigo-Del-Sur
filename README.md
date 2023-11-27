@@ -4,11 +4,12 @@
 **Breve descripción del proyecto y su finalidad.** Este proyecto es una API desarrollada como parte de una evaluación técnica propuesta por CodigoDelSur. La API está diseñada para gestionar usuarios y películas, permitiendo a los usuarios registrarse, autenticarse, buscar películas, añadir películas a sus favoritos y consultar su lista de películas favoritas.
 
 ## Tecnologías Utilizadas
+Algunas de las trecnologias utilizadas fueron las siguientes:
+
 - **Node.js y Express:** Utilizados para construir la API.
 - **SQLite:** Empleado para el almacenamiento local de datos, simulando una base de datos real.
 - **Postman:** Utilizado para probar y verificar las funcionalidades de la API.
-- **JWT (JSON Web Tokens):** Para la autenticación y manejo de sesiones.
-- **Dotenv:** Para la gestión de variables de entorno.
+
 
 ## Instalación y Configuración
 Para configurar y ejecutar el proyecto localmente, sigue estos pasos:
