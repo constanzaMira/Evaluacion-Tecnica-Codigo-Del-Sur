@@ -6,16 +6,17 @@ const tokenList = require('../usedTokenList');
 
 const router = express.Router();
 
-
-
-
-
 router.post('/register', async (req, res) => {
     const { email, firstName, lastName, password } = req.body;
     console.log(req.body);
 
     if (!email || !firstName || !lastName || !password) {
         return res.status(400).json({ error: 'Faltan datos' });
+    }
+
+    const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if (!emailRegex.test(email)) {
+        return res.status(400).json({ error: 'El formato del email es inválido' });
     }
     
     try {

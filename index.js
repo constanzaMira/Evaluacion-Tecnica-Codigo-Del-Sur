@@ -22,3 +22,5 @@ app.use('/logout', authenticateToken, logoutRoutes);
 app.listen(port, () => {
   console.log(`El servidor está escuchando en http://localhost:${port}`);
 });
+
+module.exports = app;
